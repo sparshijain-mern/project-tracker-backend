@@ -55,17 +55,7 @@ npm install
 
 ## Create a .env file in the root directory:
 
-PORT=5000
-
-DB_HOST=localhost
-DB_PORT=5432
-DB_USER=postgres
-DB_PASSWORD=root
-DB_NAME=project_tracker
-DB_SSL=false
-
-JWT_SECRET=project_tracker_secret_key_346565
-JWT_EXPIRES_IN=1d
+Add same values as in mail
 
 ## Create PostgreSQL Database
 
