@@ -4,7 +4,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 let pool;
 if (isProduction) {
 	pool = new Pool({
-		connectionString: process.env.DATABASE_URL,
+		connectionString: process.env.PRODUCTION_DATABASE_URL,
 		ssl: { rejectUnauthorized: false }
 	});
 } else {
